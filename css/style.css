@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+/* font-family: 'Righteous', cursive;
+font-family: 'Sarala', sans-serif; */
+
+@font-face {
+    font-family: 'TypeIcons';
+    src: url('/font/Type\ Icons\ Color.ttf');
+}
+a{
+    transition: .5s;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cabecalho{
+    background-color: #6fd6ff;
+    height: 58px;
+    text-align: center;
+    filter: drop-shadow(0px 2px 2px #6fd6ff) ;
+    /* z-index: 99; */
+    
+}
+
+.cabecalho h1{
+    font-family: 'Righteous', cursive;
+    color: blueviolet;
+    font-size: 40px;
+    padding: 2px 0;
+    opacity: 0.8;
+    
+}
+/* Principal */
+
+.principalC{
+    margin-top: 70px;
+   
+}
+
+.escritas{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    padding: 2em 0;
+    
+}
+
+.escritas h1{
+    font-size: 64px;
+    color: blueviolet;
+}
+.escritas p{
+    font-size: 35px;
+    font-family: 'Sarala', sans-serif; 
+    color: #333;
+}
+.span1{
+    color: blue;
+}
+.span2{
+    color: greenyellow;
+}
+
+.imagem{
+    height: 600px;
+    padding: 10px 30px;
+    opacity: 0.9;
+}
+ /* footer */
+ .footerC{
+    
+ }
+ .footer{
+    /* background-color: #6fd6ff; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 14px 0;
+    width: 100%;
+    
+    
+ }
+.footer h2{
+    font-family: 'Sarala', sans-serif; 
+    color: #333;
+    font-size: 30px;
+    border-top: 1px solid #d8b5ff;
+    
+    
+    
+}
+ .footerItens ul li{
+    display: inline;
+    
+ }
+
+ .footerItens ul li a{
+    font-family: 'TypeIcons';
+    display: inline-block;
+    font-size: 45px;
+    line-height: 60px;
+    height: 60px;
+    padding: 0 10px;
+    
+ }
+
+ .footerItens ul li a:hover{
+    padding: 0 19px;
+    filter: brightness(50%);
+ }
+
+
+
